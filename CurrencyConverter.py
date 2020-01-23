@@ -14,7 +14,7 @@ class CurrencyConverter:
         print('{} {} = {} {}'.format(initialAmount, from_currency, amont, to_currency))
 
 if __name__ == "__main__":
-    url = "http://data.fixer.io/api/latest?access_key=419f66de4d6729a1593eb27d69de63db"
+    url = "http://data.fixer.io/api/latest?access_key=419f66de4d6729aa1593eb27d69de63db"
     c = CurrencyConverter(url)
     from_currency = input("From Country: ")
     to_currency = input("to Country: ")
